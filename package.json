@@ -1,6 +1,7 @@
 {
   "name": "conversor-romano-arabigo",
   "version": "2.0.0",
+  "type": "module",
   "description": "API REST para transformar números romanos y arábigos con protocolos HTTP",
   "main": "server.js",
   "scripts": {
