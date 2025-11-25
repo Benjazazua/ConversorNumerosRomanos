@@ -1,0 +1,40 @@
+{
+  "name": "conversor-romano-arabigo",
+  "version": "2.0.0",
+  "description": "API REST para transformar números romanos y arábigos con protocolos HTTP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "jest",
+    "roman",
+    "arabic",
+    "api",
+    "node",
+    "express",
+    "vercel",
+    "http",
+    "rest"
+  ],
+  "author": "Noel David Chimbo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true,
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/api/"
+    ]
+  }
+}
